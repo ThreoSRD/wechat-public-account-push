@@ -32,9 +32,6 @@ const USER_CONFIG = {
           type: '*生日', name: '璐璐', year: '1996', date: '07-09',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '节日', name: '相识', year: '2020', date: '09-03',
-        },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
