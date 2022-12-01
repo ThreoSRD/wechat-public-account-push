@@ -13,23 +13,23 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '70707de036e8d8992ea5b8947dc58c4a',
 
-  PROVINCE: '天津',
-  CITY: '天津',
+  PROVINCE: '武汉',
+  CITY: '仙桃',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '爸妈',
+      name: '',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'odKn86qtAlrYe-5nyA785x_Ae56o',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'smDqnzuwMWRqDRsULELapIwByinDmfjz0cuPoakgQHY',
+      useTemplateId: 'lbBIDWnd7AoccdERpAYQ9dAQhomR1Oiou-hUwqDBxjc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '07-09',
+      horoscopeDate: '08-06',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '璐璐', year: '1996', date: '07-09',
+          type: '*生日', name: '慧', year: '1996', date: '08-06',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
       ],
